@@ -9,11 +9,13 @@ This repository contain the KRISHNA BOOKING APP Code build using the React.js fo
 - User can Login using a JWT
 - Filter Search Functionality
 - Functionality like Add hotel, Edit Hotel, Book Hotel
+- User can Add Images Upto 10 files
 - Stripe Payment Integration
 
 ## Technology Used
 
 - React.js
+- Node.js
 - Express.js
 - MongoDB
 - TailWindCSS
@@ -28,21 +30,21 @@ This repository contain the KRISHNA BOOKING APP Code build using the React.js fo
 
 ### Frontend
 
-2. In terminal run the command:
+1. In terminal run the command:
 
    ```bash
    cd frontend
    npm i
    ```
 
-3. Create a `.env` files in root directory and add the following environment variables:
+2. Create a `.env` files in root directory and add the following environment variables:
 
    ```env
    VITE_API_BASE_URL=`http://localhost:4000`
    VITE_STRIPE_PUB_KEY="{Setup Your Public key of Stripe Payment}"
    ```
 
-4. Start the frontend server:
+3. Start the frontend server:
 
    ```bash
    npm run dev
@@ -52,14 +54,14 @@ This repository contain the KRISHNA BOOKING APP Code build using the React.js fo
 
 ### Backend
 
-5. In terminal run the command:
+1. In terminal run the command:
 
    ```bash
    cd backend
    npm i
    ```
 
-6. Create a `.env` files in root directory and add the following environment variables:
+2. Create a `.env` files in root directory and add the following environment variables:
 
    ```env
    MONGO_CONNECTION_STRING="{Your MongoDB driver Url}"
@@ -71,7 +73,7 @@ This repository contain the KRISHNA BOOKING APP Code build using the React.js fo
    STRIPE_API_KE  = "{Setup STRIPE API Key}"
    ```
 
-7. Start the backend server:
+3. Start the backend server:
 
    ```bash
    npm start
